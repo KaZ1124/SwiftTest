@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B33575EA206450A80043B54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33575E9206450A80043B54C /* AppDelegate.swift */; };
 		B33575EC206450A80043B54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33575EB206450A80043B54C /* ViewController.swift */; };
-		B33575EF206450A80043B54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33575ED206450A80043B54C /* Main.storyboard */; };
 		B33575F1206450A80043B54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33575F0206450A80043B54C /* Assets.xcassets */; };
 		B33575F4206450A80043B54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33575F2206450A80043B54C /* LaunchScreen.storyboard */; };
 		B33575FF206450A80043B54C /* SwiftTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33575FE206450A80043B54C /* SwiftTest2Tests.swift */; };
 		B335760A206450A80043B54C /* SwiftTest2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3357609206450A80043B54C /* SwiftTest2UITests.swift */; };
+		B33576182064525C0043B54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33576172064525C0043B54C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		B33575E6206450A80043B54C /* SwiftTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33575E9206450A80043B54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B33575EB206450A80043B54C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B33575EE206450A80043B54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B33575F0206450A80043B54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B33575F3206450A80043B54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33575F5206450A80043B54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		B3357605206450A80043B54C /* SwiftTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3357609206450A80043B54C /* SwiftTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest2UITests.swift; sourceTree = "<group>"; };
 		B335760B206450A80043B54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33576172064525C0043B54C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			children = (
 				B33575E9206450A80043B54C /* AppDelegate.swift */,
 				B33575EB206450A80043B54C /* ViewController.swift */,
-				B33575ED206450A80043B54C /* Main.storyboard */,
+				B33576172064525C0043B54C /* Main.storyboard */,
 				B33575F0206450A80043B54C /* Assets.xcassets */,
 				B33575F2206450A80043B54C /* LaunchScreen.storyboard */,
 				B33575F5206450A80043B54C /* Info.plist */,
@@ -234,7 +234,7 @@
 			files = (
 				B33575F4206450A80043B54C /* LaunchScreen.storyboard in Resources */,
 				B33575F1206450A80043B54C /* Assets.xcassets in Resources */,
-				B33575EF206450A80043B54C /* Main.storyboard in Resources */,
+				B33576182064525C0043B54C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B33575ED206450A80043B54C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B33575EE206450A80043B54C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B33575F2206450A80043B54C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
